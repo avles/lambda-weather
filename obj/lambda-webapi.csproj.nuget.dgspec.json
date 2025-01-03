@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/selva/macs/lambda-webapi/lambda-webapi.csproj": {}
+  },
+  "projects": {
+    "/home/selva/macs/lambda-webapi/lambda-webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/selva/macs/lambda-webapi/lambda-webapi.csproj",
+        "projectName": "lambda-webapi",
+        "projectPath": "/home/selva/macs/lambda-webapi/lambda-webapi.csproj",
+        "packagesPath": "/home/selva/.nuget/packages/",
+        "outputPath": "/home/selva/macs/lambda-webapi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/selva/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.400.71, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.301, )"
+            },
+            "Amazon.Lambda.AspNetCoreServer.Hosting": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

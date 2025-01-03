@@ -1,0 +1,6 @@
+@lambda_webapi_HostAddress = http://localhost:5094
+
+GET {{lambda_webapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

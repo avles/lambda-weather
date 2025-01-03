@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qx7GhaanBOPN/ZCqHuuUzAeitGx+NXcIA+vsc6FZT74=",
+  "Source": "lambda-webapi",
+  "BasePath": "_content/lambda-webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
